@@ -333,20 +333,7 @@ Line {
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_4">
-     <item row="6" column="4">
-      <widget class="QLabel" name="HTemperature_4">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="0">
+     <item row="4" column="0">
       <widget class="QLabel" name="HTemperature_0">
        <property name="styleSheet">
         <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
@@ -359,27 +346,7 @@ Line {
        </property>
       </widget>
      </item>
-     <item row="2" column="0">
-      <widget class="QLabel" name="quality_0">
-       <property name="font">
-        <font>
-         <pointsize>11</pointsize>
-         <bold>true</bold>
-         <kerning>false</kerning>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>优质</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="1">
+     <item row="4" column="1">
       <widget class="QLabel" name="HTemperature_1">
        <property name="styleSheet">
         <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
@@ -392,8 +359,8 @@ Line {
        </property>
       </widget>
      </item>
-     <item row="11" column="5">
-      <widget class="QLabel" name="LTemperature_5">
+     <item row="3" column="2">
+      <widget class="QLabel" name="weather_2">
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 255, 255);</string>
        </property>
@@ -405,66 +372,39 @@ Line {
        </property>
       </widget>
      </item>
-     <item row="1" column="5">
-      <widget class="QLabel" name="date_5">
-       <property name="font">
-        <font>
-         <pointsize>10</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
+     <item row="9" column="4">
+      <widget class="QLabel" name="LTemperature_4">
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>26</string>
+        <string>TextLabel</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignmentFlag::AlignCenter</set>
        </property>
       </widget>
      </item>
-     <item row="0" column="4">
-      <widget class="QLabel" name="week_4">
-       <property name="font">
-        <font>
-         <bold>true</bold>
-        </font>
-       </property>
+     <item row="3" column="5">
+      <widget class="QLabel" name="weather_5">
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>Wednesday</string>
+        <string>TextLabel</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignmentFlag::AlignCenter</set>
        </property>
       </widget>
      </item>
-     <item row="4" column="2" rowspan="2">
-      <widget class="QLabel" name="weatherIcon_2">
+     <item row="3" column="3">
+      <widget class="QLabel" name="weather_3">
        <property name="styleSheet">
-        <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
+        <string notr="true">color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0" rowspan="2">
-      <widget class="QLabel" name="weatherIcon_0">
-       <property name="autoFillBackground">
-        <bool>false</bool>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
-       </property>
-       <property name="text">
-        <string/>
+        <string>TextLabel</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -490,110 +430,8 @@ Line {
        </property>
       </widget>
      </item>
-     <item row="4" column="5" rowspan="2">
-      <widget class="QLabel" name="weatherIcon_5">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="4" rowspan="2">
-      <widget class="QLabel" name="weatherIcon_4">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="4">
-      <widget class="QLabel" name="weather_4">
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="3">
-      <widget class="QLabel" name="week_3">
-       <property name="font">
-        <font>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>Tuesday</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="11" column="0">
-      <widget class="QLabel" name="LTemperature_0">
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="3" rowspan="2">
-      <widget class="QLabel" name="weatherIcon_3">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QLabel" name="quality_1">
-       <property name="font">
-        <font>
-         <pointsize>11</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>良好</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="2">
-      <widget class="QLabel" name="date_2">
+     <item row="1" column="4">
+      <widget class="QLabel" name="date_4">
        <property name="font">
         <font>
          <pointsize>10</pointsize>
@@ -604,15 +442,15 @@ Line {
         <string notr="true">color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>23</string>
+        <string>25</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignmentFlag::AlignCenter</set>
        </property>
       </widget>
      </item>
-     <item row="11" column="2">
-      <widget class="QLabel" name="LTemperature_2">
+     <item row="9" column="0">
+      <widget class="QLabel" name="LTemperature_0">
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 255, 255);</string>
        </property>
@@ -642,34 +480,8 @@ Line {
        </property>
       </widget>
      </item>
-     <item row="3" column="5">
-      <widget class="QLabel" name="weather_5">
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="1">
-      <widget class="QLabel" name="weather_1">
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="3">
-      <widget class="QLabel" name="date_3">
+     <item row="0" column="0">
+      <widget class="QLabel" name="week_0">
        <property name="font">
         <font>
          <pointsize>10</pointsize>
@@ -680,145 +492,33 @@ Line {
         <string notr="true">color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>24</string>
+        <string>Yesterday</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignmentFlag::AlignCenter</set>
        </property>
       </widget>
      </item>
-     <item row="11" column="4">
-      <widget class="QLabel" name="LTemperature_4">
+     <item row="4" column="2">
+      <widget class="QLabel" name="HTemperature_2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="3">
+      <widget class="QLabel" name="LTemperature_3">
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>TextLabel</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="3">
-      <widget class="QLabel" name="quality_3">
-       <property name="font">
-        <font>
-         <pointsize>11</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>轻度污染</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QLabel" name="date_0">
-       <property name="font">
-        <font>
-         <pointsize>10</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>21</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="4">
-      <widget class="QLabel" name="quality_4">
-       <property name="font">
-        <font>
-         <pointsize>11</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>中度污染</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="2">
-      <widget class="QLabel" name="week_2">
-       <property name="font">
-        <font>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>Tomorrow</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="11" column="1">
-      <widget class="QLabel" name="LTemperature_1">
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="4">
-      <widget class="QLabel" name="date_4">
-       <property name="font">
-        <font>
-         <pointsize>10</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>25</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="5">
-      <widget class="QLabel" name="week_5">
-       <property name="font">
-        <font>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>Thursday</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -844,8 +544,58 @@ Line {
        </property>
       </widget>
      </item>
-     <item row="0" column="0">
-      <widget class="QLabel" name="week_0">
+     <item row="3" column="4">
+      <widget class="QLabel" name="weather_4">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QLabel" name="quality_4">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>中度污染</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QLabel" name="week_5">
+       <property name="font">
+        <font>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Thursday</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="date_0">
        <property name="font">
         <font>
          <pointsize>10</pointsize>
@@ -856,15 +606,15 @@ Line {
         <string notr="true">color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>Yesterday</string>
+        <string>21</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignmentFlag::AlignCenter</set>
        </property>
       </widget>
      </item>
-     <item row="3" column="2">
-      <widget class="QLabel" name="weather_2">
+     <item row="9" column="5">
+      <widget class="QLabel" name="LTemperature_5">
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 255, 255);</string>
        </property>
@@ -876,85 +626,7 @@ Line {
        </property>
       </widget>
      </item>
-     <item row="3" column="0">
-      <widget class="QLabel" name="weather_0">
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="2">
-      <widget class="QLabel" name="HTemperature_2">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="1" rowspan="2">
-      <widget class="QLabel" name="weatherIcon_1">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="3">
-      <widget class="QLabel" name="weather_3">
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="11" column="3">
-      <widget class="QLabel" name="LTemperature_3">
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="3">
-      <widget class="QLabel" name="HTemperature_3">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="5">
+     <item row="4" column="5">
       <widget class="QLabel" name="HTemperature_5">
        <property name="styleSheet">
         <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
@@ -986,7 +658,96 @@ Line {
        </property>
       </widget>
      </item>
-     <item row="7" column="0" rowspan="4" colspan="6">
+     <item row="4" column="3">
+      <widget class="QLabel" name="HTemperature_3">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLabel" name="LTemperature_1">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QLabel" name="HTemperature_4">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QLabel" name="LTemperature_2">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="date_3">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>24</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="week_2">
+       <property name="font">
+        <font>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Tomorrow</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0" rowspan="4" colspan="6">
       <widget class="QLabel" name="temperatureLineBar">
        <property name="styleSheet">
         <string notr="true">background-color: rgba(108, 108, 108, 100);</string>
@@ -999,12 +760,170 @@ Line {
        </property>
       </widget>
      </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="date_2">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>23</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLabel" name="quality_3">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>轻度污染</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="week_3">
+       <property name="font">
+        <font>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Tuesday</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QLabel" name="date_5">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>26</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="weather_0">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="quality_0">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <bold>true</bold>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>优质</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="weather_1">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="quality_1">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>良好</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QLabel" name="week_4">
+       <property name="font">
+        <font>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Wednesday</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
     </layout>
    </widget>
    <widget class="QLabel" name="cityLabel">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>170</x>
       <y>60</y>
       <width>170</width>
       <height>40</height>
@@ -1029,7 +948,7 @@ Line {
    <widget class="QLabel" name="label_16">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>143</x>
       <y>65</y>
       <width>51</width>
       <height>31</height>
@@ -1095,7 +1014,7 @@ background-color: rgba(255, 255, 255, 0);</string>
    <widget class="QLabel" name="todayTemper">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>50</x>
       <y>100</y>
       <width>121</width>
       <height>71</height>
@@ -1117,36 +1036,26 @@ background-color: rgba(255, 255, 255, 0);</string>
    <widget class="QLabel" name="todayTypeLabel">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>140</y>
+      <x>250</x>
+      <y>110</y>
       <width>81</width>
-      <height>31</height>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>24</pointsize>
       <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>晴</string>
     </property>
-   </widget>
-   <widget class="QLabel" name="label_21">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>60</y>
-      <width>120</width>
-      <height>120</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-image: url(:/weatherIcons/day/Weather/weatherIcons/day/sunny.png);</string>
-    </property>
-    <property name="text">
-     <string/>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
     </property>
    </widget>
    <widget class="Line" name="line">
@@ -1187,25 +1096,6 @@ background-color: rgba(255, 255, 255, 0);</string>
      <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="feverIndexDescription">
-    <property name="geometry">
-     <rect>
-      <x>33</x>
-      <y>325</y>
-      <width>101</width>
-      <height>115</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgba(70, 70, 70, 100);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
-    </property>
-   </widget>
    <widget class="QToolButton" name="searchButton">
     <property name="geometry">
      <rect>
@@ -1223,6 +1113,9 @@ background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="shortcut">
+     <string>Return</string>
     </property>
    </widget>
    <widget class="QToolButton" name="refreshButton">
@@ -1255,6 +1148,25 @@ background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="feverIndexDescription">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>329</y>
+      <width>101</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgba(89, 89, 89, 100);</string>
     </property>
    </widget>
   </widget>

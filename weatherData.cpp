@@ -27,7 +27,7 @@ Today& Today::operator=(const QJsonObject& obj) {
     // 解析data
     QJsonObject dataObj = obj.value("data").toObject();
     this->shidu = dataObj.value("shidu").toString();
-    this->pm25 = dataObj.value("pm25").toString();
+    this->pm25 = QString::number(dataObj.value("pm25").toInt());
     this->quality = dataObj.value("quality").toString();
     this->wendu = dataObj.value("wendu").toString();
     this->ganmao = dataObj.value("ganmao").toString();
@@ -52,11 +52,11 @@ Forecast::Forecast() {
 }
 
 Forecast& Forecast::operator=(const QJsonObject& obj) {
-    this->date = obj.value("data").toString();
+    this->date = obj.value("date").toString();
     this->week = obj.value("week").toString();
     this->high = obj.value("high").toString();
     this->low = obj.value("low").toString();
-    this->aqi = obj.value("api").toString();
+    this->aqi = QString::number(obj.value("aqi").toInt());
     this->type = obj.value("type").toString();
     return *this;
 }

@@ -11,6 +11,8 @@
 #include <weatherTool.h>
 #include <QMessageBox>
 #include <QNetworkReply>
+#include <weatherData.h>
+#include <QPainter>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -29,12 +31,19 @@ public:
     Weather_forcast(QWidget* parent = nullptr);
     void getWeatherInfo(QNetworkAccessManager* manager);
     void parseJson(QByteArray& array);
+    void setLabelContent();
+    void paintSunRiseSet();
     ~Weather_forcast();
 
 protected:
     void contextMenuEvent(QContextMenuEvent *event);
     void mouseMoveEvent(QMouseEvent* event);
     void mousePressEvent(QMouseEvent* event);
+
+private slots:
+    void on_searchButton_clicked();
+
+    void on_refreshButton_clicked();
 
 private:
     Ui::Weather_forcast *ui;
@@ -57,6 +66,11 @@ private:
     QString cityTemp;
     WeatherTool tool;
     QNetworkAccessManager* manager;
+    Today today;
+    Forecast forecast[6];
+
+    const QPoint sun[2] = {QPoint(20, 75), QPoint(130, 75)};
+
 
 };
 #endif // WEATHER_FORCAST_H
